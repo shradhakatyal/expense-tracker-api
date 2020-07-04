@@ -12,7 +12,7 @@ dotenv.config({ path: './config/config.env' });
 connectDB();
 
 const corsOptions = {
-  origin: 'https://shradhakatyal.github.io/expense-tracker'
+  origin: 'https://shradhakatyal.github.io'
 }
 
 const app = express();
